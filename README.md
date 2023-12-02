@@ -14,8 +14,9 @@ This website is a digital adaptation of Muay Thai terms and numbers, originally 
 ## Downloads
 
 Visitors can download the following content:
-- [Download Terms](../assets/static/Begriffe_Muay_Thai.jpg)
-- [Download Numbers](../assets/static/Zahlen_Muay_Thai.jpg)
+[Download Terms](https://raw.githubusercontent.com/sven-bo/MuayThaiTermsApp/main/assets/static/Begriffe_Muay_Thai.jpg)
+[Download Numbers](https://raw.githubusercontent.com/sven-bo/MuayThaiTermsApp/main/assets/static/Zahlen_Muay_Thai.jpg)
+
 
 ## Contact
 
