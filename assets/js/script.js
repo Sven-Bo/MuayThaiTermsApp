@@ -55,16 +55,16 @@ const words = [
 ];
 
 const numbers = [
-    { muayThai: "nüng", number: '1' },
-    { muayThai: "sohng", number: '2' },
-    { muayThai: "sahm", number: '3' },
-    { muayThai: "sii", number: '4' },
-    { muayThai: "hah", number: '5' },
-    { muayThai: "hock", number: '6' },
-    { muayThai: "dschät", number: '7' },
-    { muayThai: "pet", number: '8' },
-    { muayThai: "gao", number: '9' },
-    { muayThai: "sip", number: '10' }
+    { muayThai: "nùeng (nüng)", number: '1' },
+    { muayThai: "sông (sohng)", number: '2' },
+    { muayThai: "săm (sahm)", number: '3' },
+    { muayThai: "sì (sii)", number: '4' },
+    { muayThai: "hâ (hah)", number: '5' },
+    { muayThai: "hòk (hock)", number: '6' },
+    { muayThai: "chèt (dschät)", number: '7' },
+    { muayThai: "pàet (pet)", number: '8' },
+    { muayThai: "kâo (gao)", number: '9' },
+    { muayThai: "sìp (sip)", number: '10' }
   ];
 
 function populateTable() {
