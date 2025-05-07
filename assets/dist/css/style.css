@@ -76,3 +76,32 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+  /* Category styling */
+  #categoryContainer {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  #categoryContainer .btn {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Table category styling */
+  .table-category {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .table-category td {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* Mobile responsiveness for category buttons */
+  @media (max-width: 768px) {
+    #categoryContainer {
+      justify-content: center;
+    }
+  }
