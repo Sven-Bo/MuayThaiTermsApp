@@ -248,9 +248,15 @@ function toggleTableView() {
             toggleLanguageButton.style.display = 'none';
         }
         
-        // Hide the mode toggle in table view
+        // Hide the mode toggle and divider in table view
         if (modeToggleContainer) {
             modeToggleContainer.style.display = 'none';
+        }
+        
+        // Hide the glossary divider
+        const glossaryDivider = document.querySelector('.glossary-divider');
+        if (glossaryDivider) {
+            glossaryDivider.style.display = 'none';
         }
         
         if (showTermsButton) {
@@ -294,6 +300,12 @@ function toggleTableView() {
         // Show the mode toggle in card view
         if (modeToggleContainer) {
             modeToggleContainer.style.display = 'flex';
+        }
+        
+        // Show the glossary divider
+        const glossaryDivider = document.querySelector('.glossary-divider');
+        if (glossaryDivider && !quizMode) {
+            glossaryDivider.style.display = 'block';
         }
         
         // Update button text
@@ -507,13 +519,27 @@ function toggleQuizMode() {
     document.getElementById('translationButton').style.display = 'none';
     document.getElementById('nextWordButton').style.display = 'none';
     
-    // Show quiz container
+    // Hide the glossary divider
+    const glossaryDivider = document.querySelector('.glossary-divider');
+    if (glossaryDivider) {
+        glossaryDivider.style.display = 'none';
+    }
+    
+    // Show quiz container and reset quiz interface
     document.getElementById('quizContainer').style.display = 'block';
     document.getElementById('quizQuestionArea').style.display = 'none';
     document.getElementById('quizResultsArea').style.display = 'none';
     
+    // Show the quiz settings (header) section
+    document.querySelector('.quiz-header').style.display = 'block';
+    
     // Populate quiz category dropdown
     populateQuizCategoryDropdown();
+    
+    // Reset quiz state
+    quizQuestions = [];
+    currentQuizQuestion = 0;
+    correctAnswers = 0;
     
     // Make sure the quiz mode toggle is selected
     document.getElementById('quiz-mode').checked = true;
@@ -529,6 +555,12 @@ function exitQuizMode() {
     // Show word container
     document.getElementById('wordContainer').style.display = 'block';
     document.getElementById('cardCategoryFilter').style.display = 'block';
+    
+    // Show the glossary divider
+    const glossaryDivider = document.querySelector('.glossary-divider');
+    if (glossaryDivider) {
+        glossaryDivider.style.display = 'block';
+    }
     
     // Show the translation and next word buttons
     document.getElementById('translationButton').style.display = 'inline-block';

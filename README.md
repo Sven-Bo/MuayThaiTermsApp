@@ -6,16 +6,21 @@ This website is a digital adaptation of Muay Thai terms and numbers, originally 
 
 ## Features
 
-- **Interactive Learning**: Users can switch between terms and numbers to enhance their Muay Thai vocabulary.
-- **Language Toggle**: The website allows switching between German and Thai for the displayed terms and numbers.
-- **Download Area**: Visitors can download lists of Muay Thai terms and numbers for personal use.
-- **Display All Terms**: A feature to display all terms and numbers in a clear table format.
+- **Interactive Learning**: Learn Muay Thai terms organized by categories.
+- **Category Filtering**: Filter terms by specific categories like Kampfstellung, Bewegungslehre, and more.
+- **Language Toggle**: Switch between German and Thai for the displayed terms.
+- **Multiple Views**: Choose between flashcard view for learning or table view for reference.
+- **Quiz Mode**: Test your knowledge with a customizable quiz:
+  - Select specific categories
+  - Choose number of questions
+  - Set direction (German to Thai, Thai to German, or random)
+  - Exclude categories you don't want to be tested on
+- **Download Option**: Access the complete Muay Thai glossary in PDF format.
 
-## Downloads
+## Download
 
-Visitors can download the following content:
-- [Download Terms](https://raw.githubusercontent.com/sven-bo/MuayThaiTermsApp/main/assets/static/Begriffe_Muay_Thai.jpg)
-- [Download Numbers](https://raw.githubusercontent.com/sven-bo/MuayThaiTermsApp/main/assets/static/Zahlen_Muay_Thai.jpg)
+Visitors can download the complete Muay Thai glossary:
+- [Download Muay Thai Glossary](assets/static/MuayThai%20Gloassar.pdf)
 
 
 ## Contact
