@@ -20,7 +20,7 @@ This website is a digital adaptation of Muay Thai terms and numbers, originally 
 ## Download
 
 Visitors can download the complete Muay Thai glossary:
-- [Download Muay Thai Glossary](assets/static/MuayThai%20Gloassar.pdf)
+- [Download Muay Thai Glossary](https://github.com/Sven-Bo/MuayThaiTermsApp/blob/main/assets/static/MuayThai%20Glossar.pdf
 
 
 ## Contact
